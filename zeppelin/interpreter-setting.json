@@ -1,0 +1,46 @@
+{
+    "interpreterSettings": {
+      "flink": {
+        "name": "flink",
+        "group": "flink",
+        "properties": {
+          "flink.execution.mode": {
+            "name": "flink.execution.mode",
+            "value": "remote",
+            "type": "string"
+          },
+          "flink.execution.remote.host": {
+            "name": "flink.execution.remote.host",
+            "value": "jobmanager",
+            "type": "string"
+          },
+          "flink.execution.remote.port": {
+            "name": "flink.execution.remote.port",
+            "value": "8081",
+            "type": "string"
+          },
+          "flink.execution.parallelism": {
+            "name": "flink.execution.parallelism",
+            "value": "2",
+            "type": "string"
+          },
+          "zeppelin.flink.maxResult": {
+            "name": "zeppelin.flink.maxResult",
+            "value": "1000",
+            "type": "string"
+          }
+        },
+        "dependencies": [],
+        "option": {
+          "remote": true,
+          "port": "-1",
+          "perNote": "scoped",
+          "perUser": "scoped",
+          "isExistingProcess": false,
+          "setPermission": false,
+          "owners": [],
+          "isUserImpersonate": false
+        }
+      }
+    }
+  }
